@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+body{
+  font-family: 'Oxygen', sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+.flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* padding: 10px; */
+}
+.flexsmall{
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    padding: 0px 10px;
+    margin: 10px 0px;
+    text-decoration: none;
+}
+.button{
+    color: #fff;
+    background-color: orangered;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin: 10px ;
+}
+.cards{
+    background-color: #ccc;
+    padding: 10px;
+    margin: 10px;
+}
+
+.Testimonials{
+    text-align: center;
+}
+.footer{
+    color: #fff;
+    background-color: #666;
+}
+input{
+    border: none;
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin: 10px;
+}
+.prefoot{
+    background-color: orangered;
+}
+.prefoot h2{
+    color: #fff;
+}
+span{
+    margin: 30px;
+    color: orangered;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+h1, h2, h4{
+    color: midnightblue;
+}
+.difference{
+    margin: 0px 20px;
+}
